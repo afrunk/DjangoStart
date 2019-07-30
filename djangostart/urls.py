@@ -19,5 +19,5 @@ from apps.message import views
 from apps.message.views import getform
 urlpatterns = [
     path('admin/', admin.site.urls),
-    re_path('^form/$',views.getform)
+    re_path('form/',views.getform,name='go_form')
 ]
