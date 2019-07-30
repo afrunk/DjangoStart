@@ -49,3 +49,6 @@ def getform(request):
     if all_messages:
         message = all_messages[0]
     return render(request,'message_form.html',{"my_message":message})
+
+
+# 测试 git
